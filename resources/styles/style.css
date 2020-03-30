@@ -1,0 +1,46 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: black;
+}
+#header {
+    color: white;
+    background: #437EB4;
+}
+
+#subHeader {
+    background: white;
+    color: #437EB4;
+    font-weight: 900;
+}
+
+#subHeader:active {
+    background: #437EB4;
+    color: white;
+}
+
+#content {
+    color: white;
+    margin-top: 2rem;
+}
+
+.divColor {
+    border-radius: 5px;
+    background: red;
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+
+h3 {
+    font-weight: 400;
+}
